@@ -5,11 +5,13 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
-        System.out.println("Hello World 2");
+        new Test2().doSmth();
     }
 
 }
 
 class Test2 {
-    public void doSmth(){}
+    public void doSmth(){
+        System.out.println("Do very complicated things");
+    }
 }
